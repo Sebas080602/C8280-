@@ -1,0 +1,15 @@
+Pregunta 2
+Comando: cut -f 1 data.tsv | uniq | wc -l
+
+Pregunta 3
+Comando: wc -l data.tsv
+
+Pregunta 4
+Comandos: 
+grep -c "Steak" data.tsv
+grep -c "Chicken" data.tsv
+
+Pregunta 5:
+Comandos:
+grep -i "Chicken" data.tsv | grep -i "Black Beans" | wc -l
+grep -i "Chicken" data.tsv | grep -i "Pinto Beans" | wc -l
